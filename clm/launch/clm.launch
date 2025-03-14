@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="livox_to_pointcloud2" type="livox_to_pointcloud2_node" name="livox_to_pointcloud2_node" output="screen"/>
+  <node pkg="clm" type="clm" name="clm" output="screen">
+     <rosparam command="load" file="$(find clm)/config/camera_info.yaml"/>
+  </node>
+<!--<node type="rviz" name="rviz" pkg="rviz" args="-d /home/csuusv/work_clcalib_my/comparison_1/comparison.rviz" />-->
+</launch>

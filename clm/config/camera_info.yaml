@@ -1,0 +1,10 @@
+
+# Camera Parameters. Adjust them!
+camera:
+    height: 2448
+    width: 2048
+    camera_matrix: [3510.43731, 0.0, 1249.81296,
+     0.0, 3490.94426, 1095.31366, 
+     0.0, 0.0, 1.0]
+    dist_coeffs: [-0.281278, 0.238723, -0.000498, 0.002335, 0.0]
+
